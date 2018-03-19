@@ -18,6 +18,7 @@ public class SumofmanyNumbers {
 			System.out.println("Sum of numbers:" + sum);
 		}
 		System.out.println("Sum in the end:" + sum);
+		reader.close();
 
 	}
 

@@ -17,6 +17,7 @@ public class Sumof3Numbers {
 		            read++;
 		        }
 		        System.out.println("Sum :"+sum);
+		        reader.close();
 
 		   }
 	
