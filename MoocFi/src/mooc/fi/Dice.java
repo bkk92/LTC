@@ -13,8 +13,8 @@ public class Dice {
     }
 
     public int roll() {
-	int rollResult = this.random.nextInt(this.numberOfSides);
-	return rollResult;
+	return this.random.nextInt(this.numberOfSides);
+
     }
 
 }
