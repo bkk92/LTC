@@ -15,7 +15,7 @@ public class PasswordRandomizer {
 
 	StringBuilder bld = new StringBuilder();
 	char[] charArray = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".toCharArray();
-	char[] result = new char[this.passwordLength];
+	// char[] result = new char[this.passwordLength];
 	for (int i = 0; i < this.passwordLength; i++) {
 	    // result[i] = charArray[random.nextInt(this.passwordLength) + 1];
 	    bld.append(charArray[random.nextInt(this.passwordLength) + 1]);
