@@ -1,4 +1,4 @@
-package week1;
+package mooc.week1;
 
 public class Ex5SecondsinaYear {
 	public static void main(String args[]) {

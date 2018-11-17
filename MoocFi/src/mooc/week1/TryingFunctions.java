@@ -1,4 +1,4 @@
-package week2;
+package mooc.week1;
 
 //import java.io.BufferedReader;
 //import java.io.InputStreamReader;
