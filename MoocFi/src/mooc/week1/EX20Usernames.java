@@ -1,4 +1,4 @@
-package week1;
+package mooc.week1;
 import java.nio.file.attribute.UserPrincipalNotFoundException;
 import java.util.Scanner;
 
