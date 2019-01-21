@@ -4,7 +4,7 @@ public class NumberStatisticsMain {
 
     public static void main(String[] args) {
 	
-	NumberStatistics stats = new NumberStatistics(;)
+	//NumberStatistics stats = new NumberStatistics(;)
     }
 
 }
