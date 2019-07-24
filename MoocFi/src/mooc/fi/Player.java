@@ -24,6 +24,6 @@ public class Player {
     }
     
     public String toString() {
-	return this.playerName +", "+this.goals;
+	return this.playerName +" - "+this.goals;
     }
 }
