@@ -32,7 +32,7 @@ public class LibraryInfoSystemBooks {
 
     @Override
     public String toString() {
-	return "LibraryInfoSystemBooks [title=" + title + ", publisher=" + publisher + ", year=" + year + "]";
+	return "[title=" + title + ", publisher=" + publisher + ", year=" + year + "]";
     }
 
 

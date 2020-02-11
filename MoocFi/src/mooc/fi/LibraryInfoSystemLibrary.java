@@ -29,7 +29,7 @@ public class LibraryInfoSystemLibrary {
 	
 	for(LibraryInfoSystemBooks findTitle : this.myLibrary) {
 	    
-	    if(findTitle.title().contains(title)) {
+	    if(StringUtils.included(findTitle.title(),title)) {   //findTitle.title().contains(title)
 		
 		found.add(findTitle);
 	    }

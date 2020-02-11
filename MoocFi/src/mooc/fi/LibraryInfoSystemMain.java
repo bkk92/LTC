@@ -18,7 +18,7 @@ public class LibraryInfoSystemMain {
 
 	//library.printBooks();
 	
-	ArrayList<LibraryInfoSystemBooks> result = library.searchByTitle("Cheese");
+	ArrayList<LibraryInfoSystemBooks> result = library.searchByTitle("CHEESE");
 	for(LibraryInfoSystemBooks book: result) {
 	    System.out.println(book);
 	}
