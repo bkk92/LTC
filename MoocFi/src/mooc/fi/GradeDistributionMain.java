@@ -7,13 +7,13 @@ public class GradeDistributionMain {
     public static void main(String[] args) {
 	// TODO Auto-generated method stub
 
-	  Scanner scanner = new Scanner(System.in);
+	  Scanner input = new Scanner(System.in);
 	  
-	  doSomething(scanner);
+	 // doSomething(scanner);
 	  
-	  GradeDistribution grades = new GradeDistribution();
+	  GradeDistribution grades = new GradeDistribution(readData(input));
 	  
-	  grades.readGrades(doSomething(scanner));
+	  grades.getGrades(readData(input));
 	  
 	  
 	  
@@ -21,11 +21,10 @@ public class GradeDistributionMain {
 	  }
     
 	  
-	  
-	  public static Scanner doSomething(Scanner scanner) { 
+	  public static String readData(Scanner scanner) { 
 	      
-	      String riw = scanner.nextLine();
-	    return scanner; 
+	      String input = scanner.nextLine();
+	    return input; 
 	      
 	      }
 	 

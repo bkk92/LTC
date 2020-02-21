@@ -5,19 +5,36 @@ import java.util.Scanner;
 
 public class GradeDistribution {
 
-    private int[] gradeList; 
+    private int[] gradeArray;
     
-    public void GradeDistribution(int[] grades ) {
+    public GradeDistribution(String input) {
 	
-	for(int i=0;i<grades.length;i++) {
-	    gradeList[i]= grades[i];
-	}
+	this.gradeArray = new int[6];
 	
     }
     
+    
+    public void setToZero() {
+	
+	for(int i=0;i<this.gradeArray.length;i++) {
+	    this.gradeArray[i]=0;
+	}
+	
+    }
 
-    public void readGrades(Scanner doSomething) {
+    public void getGrades(String input) {
 	// TODO Auto-generated method stub
+	
+	while(true) {
+	    
+	    int grade = Integer.parseInt(input);
+	    
+	    if(grade==-1) {
+		System.out.println("Exiting program due to exit condition met(input=-1)");
+	    }
+	    
+	    
+	}
 	
 	
     }
